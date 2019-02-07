@@ -1,0 +1,32 @@
+{
+  "name": "great-bear-hasura",
+  "version": "0.0.1",
+  "description": "An online store API example using Hasura",
+  "main": "src/server.ts",
+  "repository": "https://github.com/sastraxi/great-bear-hasura",
+  "author": "Cameron Gorrie <sastraxi@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "ts-node": "^8.0.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^6.1.0",
+    "@types/express": "^4.16.1",
+    "@types/passport": "^1.0.0",
+    "nodemon": "^1.18.9",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.1"
+  }
+}
