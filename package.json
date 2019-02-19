@@ -1,9 +1,9 @@
 {
-  "name": "great-bear-hasura",
+  "name": "typescript-express-knex",
   "version": "0.0.1",
   "description": "An online store API example using Hasura",
   "main": "src/server.ts",
-  "repository": "https://github.com/sastraxi/great-bear-hasura",
+  "repository": "https://github.com/sastraxi/typescript-express-knex",
   "author": "Cameron Gorrie <sastraxi@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -14,17 +14,22 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
+    "express-session": "^1.15.6",
+    "knex": "^0.16.3",
     "ts-node": "^8.0.2"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.4",
     "@types/dotenv": "^6.1.0",
     "@types/express": "^4.16.1",
-    "@types/passport": "^1.0.0",
+    "@types/express-session": "^1.15.12",
+    "@types/knex": "^0.15.2",
+    "dotenv-cli": "^1.4.0",
     "nodemon": "^1.18.9",
+    "pgsh": "^0.4.0",
     "tslint": "^5.12.1",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.3.1"
