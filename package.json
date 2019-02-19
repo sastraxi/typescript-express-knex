@@ -1,7 +1,7 @@
 {
   "name": "typescript-express-knex",
   "version": "0.0.1",
-  "description": "An online store API example using Hasura",
+  "description": "A template for backend programming with typescript, express, and knex.",
   "main": "src/server.ts",
   "repository": "https://github.com/sastraxi/typescript-express-knex",
   "author": "Cameron Gorrie <sastraxi@gmail.com>",
